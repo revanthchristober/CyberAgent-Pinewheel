@@ -42,7 +42,7 @@ The system is built using the following components:
 - **Edges**: Define transitions between nodes based on task completion, failures, or scope violations.
 
 ### 2. **LangChain Integration**
-- **LLM**: Uses **Qwen-2.5-Coder-32B** via the Groq API for task planning and decision-making.
+- **LLM**: Uses **llama-3.3-70b-versatile** via the Groq API for task planning and decision-making.
 - **Prompt Templates**: Predefined prompts for task breakdown and tool execution.
 - **Tools**: Integrates external tools (`nmap`, `gobuster`, etc.) using LangChain's `Tool` interface.
 
